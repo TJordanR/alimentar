@@ -1,4 +1,5 @@
 <?php
+/// padrao para usuario comum
 require_once __DIR__.'\templates\cabecalho_user.php';
 ?>
 
