@@ -1,3 +1,9 @@
+<?php
+require_once __DIR__ . "../models/usuario.php";
+require_once __DIR__ . "../conexao/conexao.php";
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
