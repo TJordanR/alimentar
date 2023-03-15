@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . "../models/usuario.php";
-require_once __DIR__ . "../conexao/conexao.php";
+require_once 'models/usuario.php';
+require_once 'conexao/conexao.php';
 session_start();
 ?>
 
