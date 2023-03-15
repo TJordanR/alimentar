@@ -13,7 +13,7 @@ define('DB_MYSQL',      'mysql'     );
 //      IP do Servidor
 define('IP_SERVE',      '127.0.0.1' );
 //      Nome do Banco
-define('DB_NOME',       'linxbotdb' );
+define('DB_NOME',       'alimentar' );
 //      Usuario de acesso
 define('DB_USER',       'root'      );
 //      Senha de acesso
