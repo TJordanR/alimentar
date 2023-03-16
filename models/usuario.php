@@ -33,19 +33,19 @@
         }
     }
 
-    /*public function carregar_checagem() {
-        / **
+    public function carregar_checagem() {
+        /**
          * Query de consulta no banco de dados da tabela 
          * tab_usuario com chama secundaria matricula
          * 
          * Prepara a conexao seleciona os dados e viencula 
          * os dados nas variaveis de retorno
-         * /
+         */
         $query_mysql = "SELECT id_usuario, matricula, user_nome, user_senha, situacao,  
         nivel_acesso, horario_refeicao FROM tab_usuario WHERE matricula = :matricula";
         $conexao = conexao::conectar();
         $estrutura = $conexao->prepare($query_mysql);
-        $estrutura->bindValue(':matricula'. $this->matricula;);
+        $estrutura->bindValue(':matricula'. $this->matricula);
         $estrutura->execute();
 
         $checagem = $estrutura->fetch();
@@ -57,7 +57,7 @@
         $this-> $situacao         = $situacao['situacao'];
         $this-> $nivel_acesso     = $nivel_acesso['nivel_acesso'];
         $this-> $horario_refeicao = $horario_refeicao['horario_refeicao'];
-    }   */
+    }   
 
     public static function teste_tab() 
     {
