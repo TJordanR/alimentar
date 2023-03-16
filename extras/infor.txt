@@ -1,0 +1,29 @@
+Estrutura inicial de implementação do projeto alimentar
+raiz
+    +pagina inicial boas vindas index.php
+    +pagina inicial index.php redirecionamento
+    +pagina de erro index.html
+    +README.md
+views
+    +index.php
+    +login.php
+    +inicio_dia.php
+    +cardapio.php
+    +erro.html
+templates
+    +cabecalho_adm.php
+    +cabecalho_user.php
+    +rodape.php
+    +erro.html
+models
+    +usuario.php
+    +erro.php
+    +erro.html
+controllers
+    +erro.html
+config
+    +config.php
+    +security.php
+    +erro.html
+conexao
+    +conexao.php
