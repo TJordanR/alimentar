@@ -10,7 +10,7 @@
  * 
  * 
  */
-require_once 'config/config.php';
+require_once '../config/config.php';
 
 class Conexao {
     public static function conectar(){
