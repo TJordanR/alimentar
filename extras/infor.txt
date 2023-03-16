@@ -1,4 +1,5 @@
 Estrutura inicial de implementação do projeto alimentar
+
 raiz
     +pagina inicial boas vindas index.php
     +pagina inicial index.php redirecionamento
