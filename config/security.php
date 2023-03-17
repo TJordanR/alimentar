@@ -13,8 +13,8 @@
 
 
 //      HashPassAdm
-define('ACESSO_ADIM', 'SGFzaFBhc3NBZG0=');
+$ACESSO_ADIM = 'SGFzaFBhc3NBZG0=';
 //      HashPassUsr
-define('ACESSO_USER', 'SGFzaFBhc3NVc3I=');
+$ACESSO_USER = 'SGFzaFBhc3NVc3I=';
 //      HashPassCnf
-define('ACESSO_CONF', 'SGFzaFBhc3NDbmY=');
+$ACESSO_CONF = 'SGFzaFBhc3NDbmY=';
