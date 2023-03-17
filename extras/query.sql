@@ -40,7 +40,7 @@ INSERT INTO `usuarios`(
 )
 VALUES(
     '123456',
-    'TIAGO JORDAN RODRIGUES DA SILVA',
+    'user',
     '102030',
     'ativo',
     '1',
