@@ -1,5 +1,6 @@
 <?php
 require_once '../templates/cabecalho_user.php';
+require_once '../config/security.php';
 
 if (isset($_SESSION['usuario'])) {
     header('location: index.php');
@@ -8,6 +9,11 @@ if (isset($_SESSION['usuario'])) {
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $nome_usuario  = $_REQUEST['u_user'];
     $senha_usuario = $_REQUEST['u_senha'];
+    echo $senha_usuario;
+    $senha_usuario .= "$ACESSO_ADIM";
+    echo '<h1>';
+    echo $senha_usuario;
+    echo '</h1>';
 
     try {
         $query = "select * from usuarios where user_nome = :u_user LIMIT 1";
@@ -21,21 +27,22 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
             // SENHA COM HASHE 
             //if (password_verify($senha, $registro['senha'])) {
+            echo $registro['user_senha'];
 
-            if ($senha_usuario = $registro['user_senha']) {
+            if ($senha_usuario == $registro['user_senha']) {
                 echo"<h1>";
                 echo"logim aceito";
                 echo"</h1>";
-                header('location: index.php');
+                //header('location: index.php');
             } else {
                 $erroMsg[] = "Email ou Senha errado";
-                echo $senha_usuario;
-                echo $nome_usuario;
-                echo"logim aceito 1";
+                //echo $senha_usuario;
+                //echo $nome_usuario;
+                echo"logim negado 1";
             }
         } else {
             $erroMsg[] = "Email ou Senha errado";
-            echo"logim aceito 2";
+            echo"logim negado 2";
         }
     } catch (Exception $e) {
         echo $e->getMessage();
