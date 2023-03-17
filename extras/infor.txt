@@ -16,11 +16,11 @@ templates
     +cabecalho_user.php
     +rodape.php
     +erro.html
-models
+models                  = os layouts das paginas
     +usuario.php
     +erro.php
     +erro.html
-controllers
+controllers             = tratamentos do banco de dados
     +erro.html
 config
     +config.php
