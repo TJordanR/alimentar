@@ -11,7 +11,15 @@ try {
 ?>
     <h4><?= $erro ?></h4>
     <p>
-        <a href="login.php">fazer login com usuario</a>
+        <a href="login.php">Fazer login com usuario</a>
+        <br>
+        <a href="cadastro_usuario.php">Cadastro de usuario</a>
+        <br>
+        <a href="cadastro_cardapios.php">Cadastro de Cardapio</a>
+        <br>
+        <a href="cadastro_empresa.php">Cadastro de Empresa</a>
+        <br>
+        <a href="autenticar_funcionario.php">Validar Colaborador</a>
     </p>
 
     <div class="container_cards">
