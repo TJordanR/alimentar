@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $nome_usuario  = $_REQUEST['u_user'];
     $senha_usuario = $_REQUEST['u_senha'];
     echo $senha_usuario;
-    $senha_usuario .= "$ACESSO_ADIM";
+    ///$senha_usuario .= "$ACESSO_ADIM";
     echo '<h1>';
     echo $senha_usuario;
     echo '</h1>';
