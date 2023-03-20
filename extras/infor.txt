@@ -9,7 +9,9 @@ views
     +index.php
     +login.php
     +inicio_dia.php
-    +cardapio.php
+    +cadastro_cardapios.php
+    +cadastro_usuario.php
+    +equipamento.php
     +erro.html
 templates
     +cabecalho_adm.php
@@ -18,9 +20,12 @@ templates
     +erro.html
 models                  = os layouts das paginas
     +usuario.php
+    +cardapio.php
     +erro.php
     +erro.html
 controllers             = tratamentos do banco de dados
+    +cadastro_cardapio.php
+    +cadastro_usuario.php
     +erro.html
 config
     +config.php
